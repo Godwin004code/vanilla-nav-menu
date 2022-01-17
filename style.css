@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+}
+
+i {
+    font-size: 1.5rem;
+}
+li {
+    list-style: none;
+    font-size: 2rem;
+    padding: 0 0 3rem 0;
+}
+nav li {
+    padding-left: 1rem;
+}
+.body .chev {
+    display: none;
+}
+.body.show-body .chev {
+    display: block;
+}
+
+.body .icons {
+    display: none;
+}
+.body.show-body .icons {
+    display: block;
+}
+.body nav {
+    display: none;
+}
+.body .star {
+    display: none;
+}
+.body.show-body .star {
+    display: block;
+    
+}
+.body.show-body .bars {
+    display: none;
+}
+.container {
+    display: flex;
+    
+}
+.container nav {
+    display: none;
+    
+}
+.container.show-list nav {
+    display: block;
+    
+}
+.body.show-body .fa-chevron-left {
+    display: none;
+}
+.container.show-list .fa-chevron-right {
+    display: none;
+}
+.container.show-list .fa-chevron-left {
+    display: block;
+}
+body {
+    background-color: steelblue;
+}
+.body {
+    margin-left: 2rem;
+}
+
+.icons {
+    padding: 2rem;
+    background-color: white;
+}
+
+.white {
+    margin-top: 3%;
+}
+
+.icons {
+    position: relative;
+}
+i {
+    color: steelblue;
+}
+li {
+    color: steelblue;
+}
+.icon i {
+    
+    background-color: white;
+    padding: 2rem;
+    font-size: 1.4rem;
+    border-radius: 50%;
+}
+
+.fa-chevron-right, .fa-chevron-left    {
+    position: absolute;
+    top: 35%;
+    margin-left: -1.2rem;
+    padding: 1.5rem;
+    border-radius: 50%;
+    
+    background-color: white;
+
+}
+
+
+nav {
+    position: relative;
+    padding: 2rem 2rem 2rem 0;
+    background-color: white;
+}
+@media only screen and (max-width: 600px) {
+    li {
+        font-size: 1.5rem;
+    }
+    i {
+        font-size: 1.5rem;
+    }
+}
